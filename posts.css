@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    color: white;
+}
+h1 {
+    margin: 3vh 0 10vh 0;
+    color: white;
+}
+.Links {
+    margin: auto;
+    width: 50%;
+}
+.Links a {
+    display: flex;
+    justify-content: center;
+    color: white !important;
+    font-size: 1.3em;
+    margin-bottom: 7vh;
+}
