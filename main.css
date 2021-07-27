@@ -37,7 +37,7 @@ body {
 a {
     text-decoration: none;
     border-bottom: 2px solid white;
-    padding-bottom: 2vh;
+    padding-bottom: 4vh;
 }
 a:visited {
     color: black;
@@ -82,4 +82,57 @@ strong {
 h2 {
     padding: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+/* Tablet */
+@media (min-width: 760px) {
+    .Header h1 {
+        font-size: 4em;
+    }
+    .Posts h3 {
+        font-size: 2em;
+    }
+    .Start h1 {
+        font-size: 3.5em;
+    }
+    .Stars {
+        font-size: 1.5em;
+        padding: 7vh 0 8vh 0;
+    }
+    img {
+        width: 75%;
+    }
+    i {
+        font-size: 1.5em;
+    }
+    em {
+        font-size: 1em;
+    }
+    p {
+        font-size: 1.5em;
+    }
+    .Footer .fab {
+        font-size: 3em;
+    }
+}
+/* Mac Laptop */
+@media (min-width:1000px) {
+    .Start h1 {
+        font-size: 6em;
+    }
+    img {
+        width: 50%;
+    }
+    i {
+        font-size: 2em;
+    }
+    p {
+        padding: 5em;
+        font-size: 2em;
+    }
+    .Footer .fab {
+        font-size: 4em;
+    }
+    a {
+        padding-bottom: 5vh;
+    }
 }
