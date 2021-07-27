@@ -7,19 +7,32 @@
 body {
     text-align: center;
 }
-.Menu {
+.Header {
     background-color: black;
+    color: white;
+    margin-bottom: 7VH;
 }
-.Menu h1 {
+.Header h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
-    padding-bottom: 3vh;
+    padding: .25em 0 .25em .5em;
+    color: white;
+    text-align: left;
+}
+.Posts h3{
+    border-bottom: 2px solid black;
+    padding-bottom: 1vh;
+    width: 45%;
+    margin: 0 auto;
+    font-family: Helvetica;
+}
+.Footer .fab {
+    padding: 1em 1.5em 1.5em 1.5em;
+    font-size: 1.75em;
     color: white;
 }
-.Menu .fab {
-    padding: 1em;
-    font-size: 2em;
-    color: white;
+.Footer {
+    background-color: black;
 }
 a {
     text-decoration: none;
@@ -33,29 +46,38 @@ a:link {
     color: black;
 }
 .Start {
-    padding: 5vh 0 0 0;
+    padding: 7vh 0 0 0;
 }
 .Start h1 {
     font-family: Helvetica;
-    font-size: 4em;
+    font-size: 2.5em;
+    background-color: black;
+    color: white;
+    width: 60%;
+    margin: 0 auto;
+    padding: .1em 0 .1em 0;
 }
 .Stars {
     width: 100%;
-    padding: 5vh 0 7vh 0;
+    padding: 3vh 0 4vh 0;
 }
 img {
     object-fit: contain;
     width: 100%;
     height: 0 auto;
-    margin-bottom: 3vh;
 }
 p {
     font-family: Helvetica;
     line-height: 1.5em;
-    padding: 1em;
+    padding: 2em;
 }
 p em {
     color: green;
+}
+strong {
+    background-color: black;
+    color: white;
+    padding: .25em 1em .25em 1em;
 }
 h2 {
     padding: 1em;
