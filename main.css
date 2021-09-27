@@ -20,9 +20,9 @@ body {
     text-align: left;
 }
 .Posts h3{
-    border-bottom: 2px solid black;
-    padding-bottom: 1vh;
-    width: 45%;
+    border: 2px solid black;
+    padding: .5vh 1vh .5vh 1vh;
+    width: 30%;
     margin: 0 auto;
     font-family: Helvetica;
 }
@@ -94,6 +94,7 @@ iframe {
     }
     .Posts h3 {
         font-size: 2em;
+        width: 25%;
     }
     .Start h1 {
         font-size: 3.5em;
@@ -146,5 +147,8 @@ iframe {
     iframe {
         width: 50%;
         height: 400px;
+    }
+    .Posts h3 {
+        width: 15%;
     }
 }
