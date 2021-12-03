@@ -1,0 +1,17 @@
+/* Main page only */
+* {
+ text-align: center;   
+}
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4em;
+    margin-top: 20vh;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 2vh 0 2vh 0;
+}
