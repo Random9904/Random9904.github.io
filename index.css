@@ -7,7 +7,6 @@
 .Header {
     background-color: black;
     color: white;
-    margin-bottom: 7VH;
 }
 .Header h1 {
     font-family: Arial, Helvetica, sans-serif;
@@ -33,7 +32,6 @@ img {
 .Footer .fab {
     font-size: 2em;
     color: white;
-    margin-top: 7vh;
 }
 .Footer {
     background-color: black;
