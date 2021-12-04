@@ -1,17 +1,44 @@
 /* Main page only */
 * {
  text-align: center;   
+ margin: 0;
 }
-h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 4em;
-    margin-top: 20vh;
+.Header {
+    background-color: black;
+    color: white;
+    margin-bottom: 7VH;
 }
-h3 {
+.Header h1 {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    padding: .25em 0 .25em .5em;
+    color: white;
+    text-align: left;
 }
 a {
     display: block;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 2vh 0 2vh 0;
+    font-family: Helvetica;
+    margin: 5vh 0 3vh 0;
+    padding: 2vh 0 2vh 0;
+    font-size: 1.5em;
+    color: blue;
+    text-decoration: none;
+}
+img {
+    max-width:100%;
+    max-height:100%;
+    margin-top: 2vh;
+}
+.Footer .fab {
+    font-size: 2em;
+    color: white;
+    margin-top: 7vh;
+}
+.Footer {
+    background-color: black;
+    overflow: hidden;
+}
+p {
+    margin-top: 2vh;
+    color: white;
 }
