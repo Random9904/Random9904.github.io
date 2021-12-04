@@ -1,0 +1,155 @@
+/* Used for posts */
+/* IPhone SE */
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+}
+.Header {
+    background-color: black;
+    color: white;
+    margin-bottom: 7VH;
+}
+.Header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    padding: .25em 0 .25em .5em;
+    color: white;
+    text-align: left;
+}
+.Posts h3{
+    border: 2px solid black;
+    padding: .5vh 1vh .5vh 1vh;
+    width: 30%;
+    margin: 0 auto;
+    font-family: Helvetica;
+}
+.Footer .fab {
+    padding: 1em 1.5em 1.5em 1.5em;
+    font-size: 2em;
+    color: white;
+}
+.Footer {
+    background-color: black;
+}
+a {
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    padding-bottom: 4vh;
+}
+a:visited {
+    color: black;
+}
+a:link {
+    color: black;
+}
+.Start {
+    padding: 7vh 0 0 0;
+}
+.Start h1 {
+    font-family: Helvetica;
+    font-size: 2.5em;
+    background-color: black;
+    color: white;
+    width: 60%;
+    margin: 0 auto;
+    padding: .1em 0 .1em 0;
+}
+.Stars {
+    width: 100%;
+    padding: 3vh 0 4vh 0;
+}
+img {
+    object-fit: contain;
+    width: 100%;
+    height: 0 auto;
+}
+p {
+    font-family: Helvetica;
+    line-height: 1.5em;
+    padding: 2em;
+}
+p em {
+    color: green;
+}
+strong {
+    background-color: black;
+    color: white;
+    padding: .25em 1em .25em 1em;
+}
+h2 {
+    padding: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+iframe {
+    width: 100%;
+    height: 170px;
+}
+/* Tablet */
+@media (min-width: 760px) {
+    .Header h1 {
+        font-size: 4em;
+    }
+    .Posts h3 {
+        font-size: 2em;
+        width: 25%;
+    }
+    .Start h1 {
+        font-size: 3.5em;
+    }
+    .Stars {
+        font-size: 1.5em;
+        padding: 7vh 0 8vh 0;
+    }
+    img {
+        width: 75%;
+    }
+    i {
+        font-size: 1.5em;
+    }
+    em {
+        font-size: 1em;
+    }
+    p {
+        font-size: 1.5em;
+    }
+    .Footer .fab {
+        font-size: 3em;
+    }
+    iframe {
+        width: 75%;
+        height: 300px;
+    }
+}
+/* Mac Laptop */
+@media (min-width:1000px) {
+    .Start h1 {
+        font-size: 6em;
+    }
+    img {
+        width: 50%;
+    }
+    i {
+        font-size: 2em;
+    }
+    p {
+        padding: 5em;
+        font-size: 2em;
+    }
+    .Footer .fab {
+        font-size: 4em;
+    }
+    a {
+        padding-bottom: 5vh;
+    }
+    iframe {
+        width: 50%;
+        height: 400px;
+    }
+    .Posts h3 {
+        width: 15%;
+    }
+}
